@@ -40,6 +40,12 @@ async function authenticateToken(req, res, next) {
                 message: 'Unauthorized access',
                 data: 'Not allow to use this access token!'
               });
+        }else if (login.logged_out == 1){
+          return res.status(401).send({
+              success: false,
+              message: 'Unauthorized access',
+              data: 'access token denied!'
+            });
         }
 
     }   
