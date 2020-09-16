@@ -11,7 +11,7 @@ npm install
 node server
 ```
 
-### API Guild
+### API Guide
 
 ##### User Create
 ```
