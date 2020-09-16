@@ -73,7 +73,7 @@ POST /api/product/create
 
 ```
 
-##### Product Create
+##### Get all Product
 ```
 GET /api/product
 ```
